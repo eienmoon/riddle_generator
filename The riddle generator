@@ -37,7 +37,7 @@ while turn < 3:
             print ans(2)
             turn+=1
     else:
-        print "Thank You for Playing ^_^"
+        print "Thank You for Playing  ^_^"
         
     
     
