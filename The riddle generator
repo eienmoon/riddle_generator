@@ -1,0 +1,46 @@
+riddle = "Why did the chicken cross the road"
+riddletwo ="what came first the chicken or the egg?"
+riddlethree = "What hatched from the chickens egg?"
+
+answer = "The answer is: to get to the other side."
+answertwo = "The answer is: it depends"
+answerthree = "Arent you tired of reading all these cliche chicken jokes?"
+
+liste = [riddle, riddletwo, riddlethree]
+
+print "Wanna hear a riddle?"
+
+def ans(k):
+    if k == 0:
+        print answer
+    elif 0 < k < 2:
+        print answertwo
+    elif k > 1:
+        print answerthree
+        
+turn=0
+while turn < 3:
+    for a in liste:
+        if turn == 0:
+            print list[0]
+            print raw_input("what is your answer?"
+            print ans(0)
+            turn+=1
+        elif 0 < turn <2:
+            print list[1]
+            print raw_input("what is your answer?")
+            print ans(1)
+            turn+=1
+        elif 1 < turn < 3:
+            print list[2]
+            print raw_input("What is your answer?")
+            print ans(2)
+            turn+=1
+    else:
+        print "Thanks for Playing ^_^"
+        
+    
+    
+    
+
+
